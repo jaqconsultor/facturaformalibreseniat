@@ -28,7 +28,11 @@
 		internet por la dependencia maven para tu base de datos y añádela
 		aquí tu mismo.
 		-->
-		
+		<dependency>
+    <groupId>org.mariadb.jdbc</groupId>
+    <artifactId>mariadb-java-client</artifactId>
+    <version>3.3.0</version>
+</dependency>
 		<!-- MySQL 
 		<dependency>
 			<groupId>mysql</groupId>
